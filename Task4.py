@@ -14,4 +14,4 @@ polynomial+=('','1')[polynomial[-1]==' + ']
 polynomial=(polynomial, polynomial[:-2])[polynomial[-2:]=='*1']
 print(polynomial)
 f = open('file.txt','w')
-f.write(str(k))
+f.write(str(polynomial))
